@@ -49,10 +49,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="blog.html">Home</a>
                     </li>
                     <li>
-                        <a href="blog.html">About</a>
+                        <a href="about.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -63,36 +63,25 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+    <!--<header class="intro-header" style="background-image: url('img/home-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>About Me</h1>
+                    <div class="site-heading" style="
+    padding-top: 120px;">
+                        <h1>bLog</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">Houston, we have a </span>
+                        <br/><br/><br/><br/><br/>
+                        <span class="subheading"></span>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
+    </header>-->
+    {% include header.html %}
     <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 col-md-offset-1">
-                <a href="#">
-                    <div class="col-md-2" style="width: 300px;height: 300px;">
-                        <img class="img-circle img-responsive" src="img/pp.jpg" alt="">
-                    </div>
-                </a>
-                <p>Computer engineering student at Federal University of Rio Grande do Norte, from Natal-RN, I'm 22 years old and I'll try to show you some productions.</p>
-                <p>I hope you enjoy and maybe it can help you somehow.</p>
-                <p>Bye :) social medias down here</p>
-                <p class="col-md-offset-1">(Daniel Moura)</p>
-            </div>
-        </div>
-    </div>
+    {{content}}
 
     <hr>
 
@@ -149,7 +138,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="index/#contact"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
