@@ -420,6 +420,14 @@ section.contact ul.list-social li.social-twitter a:hover {
     background-color: #0d95e8;
 }
 
+section.contact ul.list-social li.social-github a {
+    background-color: #5a006b;
+}
+
+section.contact ul.list-social li.social-github a:hover {
+    background-color: #38006b;
+}
+
 section.contact ul.list-social li.social-facebook a {
     background-color: #3b5998;
 }
