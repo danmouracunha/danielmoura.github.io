@@ -1,1 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
+baseurl: ''
+gems: 
+- jekyll-admin
